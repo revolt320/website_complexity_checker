@@ -16,7 +16,7 @@ st.caption("12-Factor Web Scraping Framework • AI-Powered")
 # -------------------------------------------------
 # OPENAI CONFIG (HARD-LOCKED)
 # -------------------------------------------------
-MODEL = "gpt-4.1"
+MODEL = "gpt-5.2"
 API_KEY = st.secrets.get("OPENAI_API_KEY")
 
 if not API_KEY:
